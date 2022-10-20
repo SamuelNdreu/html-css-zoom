@@ -55,12 +55,12 @@ footer{
 
 li.view-interface-grid{
     color: white;
-
     position:absolute;
     bottom:96%;
     right: 1%;
     margin: 1vh;
     z-index: 2;
+    background-color: lightgrey;
 }
 
 
