@@ -13,6 +13,13 @@ main{
     position: relative;
 }
 
+footer{
+    background-color: #222222;
+    color: white;
+    height: 8rem;
+    padding: 1rem;
+}
+
 div.view-interface{
     color: white;
     background-color: grey;
@@ -28,19 +35,45 @@ div.view-interface{
     margin: 0 auto;
 }
 
+.hang-up{
+    color: red;
+}
+
 /* items-interface */
 
 div.webcam{
-    background-image: url('https://picsum.photos/180/320.jpg');
+    background-image: url('https://picsum.photos/140/280.jpg');
     height: 140px;
     width: 280px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
-section.webcams{
+
+section.users-webcams{
     position: relative;
     margin: 3vh auto;
 
+
 }
 
+section.users-webcams span {
+    position: absolute;
+    background-color: rgba(138, 138, 138, 0.555);
+    color: white;
+    bottom:0%;
+    left:0%;
+    
+}
+
+
+
+footer i{
+    font-size: xx-large;
+    padding: 0 0.5rem 0 1.5rem;
+}
+
+div.hang-up{
+    padding: 1rem;
+    background-color: lightgrey;
+}
