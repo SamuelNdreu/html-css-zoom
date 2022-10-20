@@ -3,3 +3,44 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    background-color: black;
+    position: relative;
+}
+
+div.view-interface{
+    color: white;
+    background-color: grey;
+    position:absolute;
+    top:0%;
+    right: 0%;
+    margin: 1vh;
+    z-index: 2;
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+}
+
+/* items-interface */
+
+div.webcam{
+    background-image: url('https://picsum.photos/180/320.jpg');
+    height: 140px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+section.webcams{
+    position: relative;
+    margin: 3vh auto;
+
+}
+
