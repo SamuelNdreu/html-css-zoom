@@ -15,6 +15,8 @@ main{
 
 }
 
+
+
 .flex{
     display: flex;
 }
@@ -48,11 +50,21 @@ footer{
     padding: 1rem;
 }
 
-div.view-interface{
+li.view-interface-grid{
     color: white;
-    background-color: grey;
+
     position:absolute;
     top:0%;
+    right: 1%;
+    margin: 1vh;
+    z-index: 2;
+}
+
+
+li.view-interface{
+    color: white;
+
+    position:absolute;
     right: 0%;
     margin: 1vh;
     z-index: 2;
@@ -116,6 +128,7 @@ div.hang-up a{
     padding: 1rem;
     background-color: lightgrey;
     text-decoration: none;
+    font-weight: 500;
 }
 
 
@@ -123,4 +136,33 @@ div.hang-up a{
 div.hang-up a:hover{
     background-color: red;
     color: white;
+    font-weight: 500;
 }
+
+div i.w-hover{
+    color:white ;
+}
+
+div i.w-hover:hover{
+    
+    color: lightgray;
+}
+
+.pointer {
+    cursor: pointer;}
+
+ul li{
+    list-style: none;
+    color: white;
+        
+    font-size: 1.1rem;
+}
+ul li:hover{
+    color: lightgray
+}
+
+
+.move{
+cursor: move;
+}
+
