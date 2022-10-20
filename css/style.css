@@ -21,11 +21,21 @@ main{
 .flex-wrap{
     flex-wrap: wrap;
 }
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+
+}
+
 .flex-centered{
     justify-content: center;
     align-items: center;
 }
-
 .flex-between{
     justify-content: space-between;
     align-items: center;
@@ -34,7 +44,7 @@ main{
 footer{
     background-color: #222222;
     color: white;
-    height: 8rem;
+    height:5.2rem;
     padding: 1rem;
 }
 
@@ -50,8 +60,8 @@ div.view-interface{
 
 .container{
     width: 90vw;
-    margin: 0 auto;
-    justify-content: center;
+    margin: auto;
+
 }
 
 .green{
@@ -66,12 +76,15 @@ div.view-interface{
 /* items-interface */
 
 div.webcam{
+    margin:0.5rem;
+    padding-bottom: 1rem;
     background-image: url('https://picsum.photos/140/280.jpg');
-    height: 140px;
-    width: 280px;
+    height: 120px;
+    width: 260px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 section.users-webcams{
@@ -85,8 +98,8 @@ section.users-webcams span {
     position: absolute;
     background-color: rgba(119, 114, 114, 0.555);
     color: white;
-    bottom:0%;
-    left:0%;
+    bottom:5%;
+    left:3%;
     
 }
 
@@ -99,12 +112,15 @@ footer i{
     padding: 0 0.5rem 0 1.5rem;
 }
 
-div.hang-up{
+div.hang-up a{
     padding: 1rem;
     background-color: lightgrey;
-    position: absolute;
-    bottom:0%;
-    right:0%;
-    height: 5rem;
-    
+    text-decoration: none;
+}
+
+
+
+div.hang-up a:hover{
+    background-color: red;
+    color: white;
 }
