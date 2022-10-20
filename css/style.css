@@ -11,7 +11,7 @@ body{
 main{
     background-color: black;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 
 }
 
@@ -48,13 +48,16 @@ footer{
     color: white;
     height:5.2rem;
     padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 }
 
 li.view-interface-grid{
     color: white;
 
     position:absolute;
-    top:0%;
+    bottom:96%;
     right: 1%;
     margin: 1vh;
     z-index: 2;
@@ -63,8 +66,8 @@ li.view-interface-grid{
 
 li.view-interface{
     color: white;
-
     position:absolute;
+    bottom:96%;
     right: 0%;
     margin: 1vh;
     z-index: 2;
@@ -72,7 +75,9 @@ li.view-interface{
 
 .container{
     width: 90vw;
-    margin: auto;
+    margin:auto;
+    padding-top: 1rem;
+    min-height: 80vh;
 
 }
 
@@ -101,7 +106,7 @@ div.webcam{
 
 section.users-webcams{
     position: relative;
-    margin: 3vh auto;
+    margin: 1rem auto;
 
 
 }
@@ -129,6 +134,7 @@ div.hang-up a{
     background-color: lightgrey;
     text-decoration: none;
     font-weight: 500;
+    border-radius: 3px ;
 }
 
 
@@ -155,7 +161,7 @@ ul li{
     list-style: none;
     color: white;
         
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 ul li:hover{
     color: lightgray
