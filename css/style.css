@@ -11,7 +11,7 @@ body{
 main{
     background-color: black;
     position: relative;
-    min-height: 100vh;
+    height: 100vh;
 
 }
 
@@ -46,7 +46,6 @@ main{
 footer{
     background-color: #222222;
     color: white;
-    height:5.2rem;
     padding: 1rem;
     position: absolute;
     bottom: 0;
@@ -54,23 +53,24 @@ footer{
 }
 
 li.view-interface-grid{
-    color: white;
+    color: rgb(255, 255, 255);
     position:absolute;
     bottom:96%;
     right: 1%;
     margin: 1vh;
     z-index: 2;
-    background-color: lightgrey;
+    
 }
 
 
 li.view-interface{
-    color: white;
+    color: rgb(255, 255, 255);    
     position:absolute;
     bottom:96%;
     right: 0%;
     margin: 1vh;
     z-index: 2;
+    
 }
 
 .container{
@@ -78,6 +78,7 @@ li.view-interface{
     margin:auto;
     padding-top: 1rem;
     min-height: 80vh;
+    overflow: auto
 
 }
 
