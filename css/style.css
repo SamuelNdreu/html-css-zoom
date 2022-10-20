@@ -15,7 +15,15 @@ main{
 
 }
 
+footer{
+    background-color: #222222;
+    color: white;
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
 
+}
 
 .flex{
     display: flex;
@@ -43,14 +51,7 @@ main{
     align-items: center;
 }
 
-footer{
-    background-color: #222222;
-    color: white;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100vw;
-}
+
 
 li.view-interface-grid{
     color: rgb(255, 255, 255);
